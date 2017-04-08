@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container">
+  <form action="#">
+    <p>
+      <div class="row">
+      <div class="col s12"><span class="flow-text">Disputes</span></div>
+        <p>
+          <div class="col s6 offset-s1">
+            <input type="checkbox" id="check_dispute_created" />
+            <label for="check_dispute_created">Dispute Created</label>
+          </div>
+          <div class="col s6 offset-s1">
+            <input type="checkbox" id="check_dispute_closed" />
+            <label for="check_dispute_closed">Dispute Closed</label>
+          </div>
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col s12"><span class="flow-text">Transfers</span></div>
+        <p>
+          <div class="col s6 offset-s1">
+            <input type="checkbox" id="check_transfer_created" />
+            <label for="check_transfer_created">Transfer Created</label>
+          </div>
+          <div class="col s6 offset-s1">
+            <input type="checkbox" id="check_transfer_available" />
+            <label for="check_transfer_available">Transfer Available</label>
+          <div>
+        </div>
+        </p>
+    </div>
+    </p>
+  </form>
+</div>
+{% endblock %}

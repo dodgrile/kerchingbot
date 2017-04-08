@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block body %}
+  <h3>BEEP BOOP BEEP</h3>
+
+  <p>Each highlight must have it's own private shadow. Isn't that fantastic? Now, we're going to fluff this cloud. Working it up and down, back and forth.</p>
+
+  <p>Everything is happy if you choose to make it that way. You can do anything here - the only pre-requisite is that it makes you happy. We start with a vision in our heart, and we put it on canvas.</p>
+
+  <div class="row">
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Connect to Stripe</span>
+                <p>First, we need to plug Kerchingbot into your Stripe account.
+                  Don't worry, he's a good robot Brent</p>
+              </div>
+              <div class="card-action">
+                <a href="#"><a href="https://connect.stripe.com/oauth/authorize?response_type=code&amp;client_id={{ client_id }}&amp;scope=read_write" class="connect-button"><span>Connect with Stripe</span></a></a>
+                <a href="#">Disconnect</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+{% endblock %}
